@@ -1,0 +1,47 @@
+@mixin left_title {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+}
+@mixin left_text {
+    font-size: 20px;
+    position: absolute;
+    left: 50px;
+}
+@mixin icon_left {
+    height: 50px;
+    width: 50px;
+    border-radius: 525px;
+    position: absolute;
+    left: 270px;
+}
+@mixin right_title {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 120px;
+}
+@mixin right_text {
+    font-size: 20px;
+    position: absolute;
+    left: 120px;
+}
+@mixin icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 525px;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+}
+@mixin table {
+    margin-left: 8rem;
+    font-size: 2.5rem;
+}
+@mixin table_data {
+    height: 540px;
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    border-radius: 15px;
+}

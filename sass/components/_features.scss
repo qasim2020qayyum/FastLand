@@ -1,0 +1,159 @@
+.features {
+    height: 780px;
+    width: 100%;
+    border-bottom: 1px solid rgba(155, 97, 97, 0.452);
+    background-color: #f2f5fb;
+    position: relative;
+    &_box {
+        height: 700px;
+        width: 90%;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+    }
+    &_title {
+        height: 170px;
+        width: 600px;
+        position: absolute;
+        left: 350px;
+    }
+    &_heading {
+        font-size: 20px;
+        text-align: center;
+        color: #fd7776;
+        font-weight: bold;
+    }
+    &_slogan {
+        font-size: 60px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    &_image {
+        &-1 {
+            height: 300px;
+            width: 300px;
+            margin-left: 480px;
+            margin-top: 330px;
+            background-attachment: fixed;
+        }
+        &-2 {
+            height: 500px;
+            width: 330px;
+            position: absolute;
+            left: 440px;
+            top: 240px;
+            background-attachment: fixed;
+        }
+    }
+    &_left {
+        height: 500px;
+        width: 350px;
+        position: absolute;
+        top: 180px;
+        left: 115px;
+        text-align: center;
+        &-title {
+            &-1 {
+               @include left_title;
+                left: 70px;
+            }
+            &-2 {
+                @include left_title;
+                left: 70px;
+                top: 180px;
+            }
+            &-3 {
+                @include left_title;
+                left: 50px;
+                top: 370px;
+            }
+        }
+        &-text {
+            &-1 {
+              @include left_text;
+                top: 40px;
+            }
+            &-2 {
+                @include left_text;
+                top: 220px;
+            }
+            &-3 {
+                @include left_text;
+                top: 410px;
+            }
+        }
+        &-icon{
+            &-1{
+              @include icon_left;
+            }
+            &-2{
+                @include icon_left;
+                top:180px;
+
+            }
+            &-3{
+                @include icon_left;
+                top: 370px;
+            }
+        }
+    }
+    &_right {
+        height: 500px;
+        width: 350px;
+        position: absolute;
+        top: 180px;
+        left: 800px;
+        &-title {
+            &-4 {
+                @include right_title;
+            }
+            &-5 {
+                @include right_title;
+                top: 180px;
+            }
+            &-6 {
+                @include right_title;
+                top: 370px;
+            }
+        }
+        &-text {
+            &-4 {
+                @include right_text;
+                top: 40px;
+            }
+            &-5 {
+                @include right_text;
+                top: 220px;
+            }
+            &-6 {
+                @include right_text;
+                top: 410px;
+            }
+        }
+        &-icon{
+            &-4{
+                @include icon;
+            }
+            &-5{
+                @include icon;
+                top: 180px;
+            }
+            &-6{
+                @include icon;
+                top: 370px;
+            }
+        }
+    }
+}
+.icon-4{
+    text-align: center;
+    font-size: 25px;
+    color: #FD7776;
+    margin-top: 10px;
+}
+.icon-5{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #FD7776;
+}

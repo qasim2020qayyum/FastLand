@@ -1,0 +1,37 @@
+.community{
+    height: 655px;
+    width: 100%;
+    background-color: #63BCB1;
+    position: relative;
+    &_div{
+        height: 390px;
+        width: 640px;
+        border-radius: 20px;
+        background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.87) 0%, rgba(255, 255, 255, 0.62) 29%, rgba(255, 255, 255, 0.2) 100%);
+        position: absolute;
+        left: 580px;
+        top: 100px;
+    }
+    &_text{
+        &-1{
+            font-size: 25px;
+            font-weight: bold;
+            margin-left: 100px;
+            margin-top: 80px;
+        }
+        &-2{
+            font-size: 50px;
+            font-weight: bold;
+            margin-left: 100px;
+            margin-top: 30px;
+        }
+    }
+    #Email{
+        padding: 20px;
+        margin-left: 100px;
+        margin-top: 30px;
+        border-radius: 50px;
+        border: none;
+        width: 55%;
+    }
+}

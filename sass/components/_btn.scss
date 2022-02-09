@@ -1,0 +1,132 @@
+.btn {
+    &_header {
+        &-1 {
+            position: absolute;
+            left: 1050px;
+            top: 30px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: #2ea9a7;
+            color: white;
+            border: none;
+            font-size: 15px;
+            text-decoration: none;
+            transition: all 3s;
+            &:hover {
+                background-color: skyblue;
+            }
+        }
+        &-2 {
+            padding: 15px 40px;
+            background-color: #fd7776;
+            color: white;
+            position: absolute;
+            top: 320px;
+            border-radius: 30px;
+            border: none;
+            transition: all 2s;
+            text-decoration: none;
+            font-size: 10px;
+            &:hover {
+                background-color: lightcoral;
+            }
+        }
+        &-3 {
+            padding: 15px 40px;
+            background-color: #2ea9a7;
+            color: white;
+            position: absolute;
+            top: 320px;
+            left: 150px;
+            border-radius: 30px;
+            border: none;
+            transition: all 2s;
+            text-decoration: none;
+            font-size: 10px;
+            &:hover {
+                background-color: skyblue;
+            }
+        }
+    }
+    &_table {
+        &-1 {
+            padding: 10px 20px;
+            background-color: #2ea9a7;
+            color: white;
+            border-radius: 20px;
+            position: absolute;
+            left: 400px;
+            top: 134px;
+            border: none;
+        }
+        &-2{
+            padding: 15px 50px;
+            border-radius: 20px;
+            background-color: #099A97;
+            color: white;
+            position: absolute;
+            top: 310px;
+            left:90px;
+            text-decoration: none;
+            border: none;
+        }
+        &-3{
+            padding: 15px 50px;
+            border-radius: 20px;
+            background-color:#FD7776;
+            color: white;
+            position: absolute;
+            top: 310px;
+            left:90px;
+            text-decoration: none;
+            border: none;
+        }
+        &-4{
+            padding: 15px 50px;
+            border-radius: 20px;
+            background-color: #099A97;
+            color: white;
+            position: absolute;
+            top: 310px;
+            left:90px;
+            text-decoration: none;
+            border: none;
+        }
+    }
+    &_community{
+        padding: 10px 27px;
+        margin-left: -130px;
+        border-radius: 50px;
+        background-color: #099A97;
+        border: none;
+        color: white;
+        font-size: 17px;
+        text-decoration: none;
+    }
+    &_login{
+        &-1{
+            padding: 15px 40px;
+            position: absolute;
+            left: 340px;
+            top: 220px;
+            border-radius: 50px;
+            border: none;
+            background-color: #FD7776;
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+        }
+        &-2{
+            padding: 15px 40px;
+            position: absolute;
+            left: 520px;
+            top: 220px;
+            border-radius: 50px;
+            border: none;
+            background-color:#2EA9A7;
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+        }
+    }
+}

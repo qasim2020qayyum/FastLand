@@ -1,0 +1,97 @@
+.about {
+    height: 70rem;
+    width: 100%;
+    background-color: #f2f5fb;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+    position: relative;
+    &_image-1 {
+        height: 30rem;
+        width: 30rem;
+        margin-left: 90rem;
+        margin-top: 20rem;
+    }
+    &_image-2 {
+        height: 47.5rem;
+        width: 33rem;
+        position: absolute;
+        left: 88rem;
+        top: 11.5rem;
+    }
+    &_box {
+        height: 350px;
+        width: 750px;
+        position: absolute;
+        top: 50px;
+        left: 130px;
+    }
+    &_text {
+        &-1 {
+            font-size: 25px;
+            color: #fd7776;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        &-2 {
+            font-size: 60px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        &-3 {
+            font-size: 25px;
+            margin-top: 30px;
+            color: grey;
+        }
+        &-4{
+            font-size: 30px;
+            font-weight: bold;
+            margin-left: 140px;
+            margin-top: 30px;
+        }
+        &-5{
+            font-size: 20px;
+            margin-left: 140px;
+            margin-top: 20px;
+        }
+        &-6{
+            font-size:30px;
+            font-weight: bold;
+            margin-left:510px;
+            margin-top: -105px;
+        }
+        &-7{
+            font-size: 20px;
+            margin-left: 510px;
+            margin-top: 20px;
+        }
+    }
+    &_box-2 {
+        height: 70px;
+        width: 70px;
+        background-color: #099a97;
+        position: absolute;
+        left: 130px;
+        top: 440px;
+        border-radius: 50px;
+        text-align: center;
+        &-icon {
+            font-size: 30px;
+            margin-top: 20px;
+            color: white;
+        }
+    }
+    &_box-3 {
+        height: 70px;
+        width: 70px;
+        background-color: #099a97;
+        position: absolute;
+        left: 500px;
+        top: 440px;
+        border-radius: 50px;
+        text-align: center;
+        &-icon {
+            font-size: 30px;
+            margin-top: 20px;
+            color: white;
+        }
+    }
+}

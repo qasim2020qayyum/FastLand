@@ -1,0 +1,95 @@
+.header {
+    height: 68.7rem;
+    width: 100%;
+    background-color: $color-blue;
+    position: relative;
+    &-div {
+        display: flex;
+        height: 7rem;
+        width: 90%;
+        position: absolute;
+        left: 5%;
+        &_image-1 {
+            margin-top: 3rem;
+        }
+        &_div-1 {
+            height: 5rem;
+            width: 50rem;
+            position: absolute;
+            left: 35rem;
+            top: 1rem;
+            ul {
+                list-style: none;
+            }
+            li {
+                float: left;
+                margin: 2rem;
+                font-size: 2.1rem;
+                transition: all 0.1s;
+                cursor: pointer;
+                &:hover {
+                    color: blueviolet;
+                    border-bottom: 3px solid gray;
+                }
+            }
+        }
+    }
+    &-div-2 {
+        height: 45rem;
+        width: 59rem;
+        position: absolute;
+        left: 6.5rem;
+        top: 13rem;
+        &_text-1 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: $color-light-pink;
+            margin-left: 0.5rem;
+        }
+        &_text-2 {
+            font-size: 5.5rem;
+            font-weight: bold;
+            margin-top: 3rem;
+            margin-left: 0.5rem;
+        }
+        &_text-3 {
+            font-size: 2.5rem;
+            color: $color-grey;
+            margin-top: 4rem;
+            margin-left: 0.5rem;
+        }
+    }
+    &_image-2 {
+        height: 57rem;
+        width: 35.5rem;
+        position: absolute;
+        left: 70rem;
+        top: 20rem;
+    }
+    &_image-3 {
+        height: 43.5rem;
+        width: 20rem;
+        position: absolute;
+        left: 107rem;
+        top: 25rem;
+    }
+    &_center-div {
+        height: 15rem;
+        width: 100%;
+        position: relative;
+        top: 3.5rem;
+        &_text-1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: $color-light-pink;
+            font-weight: bold;
+            margin-top: 3.5rem;
+        }
+        &_text-2 {
+            font-size: 6rem;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 1.5rem;
+        }
+    }
+}

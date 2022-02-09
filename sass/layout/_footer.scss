@@ -1,0 +1,43 @@
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    &_div {
+        height: 80px;
+        width: 90%;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+    }
+    &_image {
+        margin-top: 30px;
+    }
+    &_ul {
+        list-style: none;
+        & li {
+            float: left;
+            margin-right: 30px;
+            font-size: 21px;
+        }
+        &-li {
+            &-1 {
+                margin-left: 820px;
+                margin-top: -19px;
+                color: white;
+            }
+            &-2 {
+                margin-top: -19px;
+                color: white;
+            }
+            &-3 {
+                margin-top: -19px;
+                color: white;
+            }
+            &-4 {
+                margin-top: -19px;
+                color: white;
+            }
+        }
+    }
+}

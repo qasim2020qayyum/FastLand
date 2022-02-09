@@ -1,0 +1,24 @@
+.login {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    &_div {
+        height: 300px;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 25%;
+    }
+    &_text {
+        &-1 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+        &-2 {
+            font-size: 25px;
+            text-align: center;
+            margin-top: 30px;
+            color: #828284;
+        }
+    }
+}
